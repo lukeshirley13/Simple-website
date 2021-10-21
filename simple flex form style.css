@@ -1,0 +1,43 @@
+
+
+
+
+.header {
+    background-color: gray;
+    color: white;
+    position: sticky;
+    width: 100vw;
+    top:0;
+}
+
+.navbar__wrapper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section {
+    height: 500px;
+    border: 2px solid grey;
+}
